@@ -196,15 +196,15 @@ div ul li .link:hover{
 }
 .section{
     grid-area: section;
-    background-color: brown;
+    background-image: linear-gradient(to left bottom, #ccd1d3, #78b8dd, #0098ed, #0072f5, #013dea);
 }
 .article{
     grid-area: article;
-    background-color: royalblue;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 .footer{
     grid-area: footer;
-    background-color:blueviolet;
+    background-image: linear-gradient(to right top, #0c2029, #003159, #003f8f, #0046c3, #013dea);
 }
 
 input , select{
@@ -309,7 +309,7 @@ iframe{
 }
 }
 
-
+/* transiciones y transformaciones */
 
 .box_2 {
    
@@ -353,16 +353,19 @@ iframe{
     transition: width 2s, height 2s, transform 3s;
     width: 590px;
     height: 390px;
+    transform: scale(1);
     
 
 }
-.ravioles:hover{
+.vacio:hover{
     transition: width 2s, height 2s, transform 3s;
-    width: 250px;
-    height: 250px;
-   
+    width: 510px;
+    
+    transform: scale(1);
+    
 
 }
+
 
 
 
