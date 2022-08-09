@@ -8,7 +8,7 @@
 
 }
 /* encabezado*/
-.conteiner{
+.encabezado{
     display: grid;
     grid-template-columns:90px   1fr 90px ;
    
@@ -41,7 +41,6 @@
 ul{
    
     text-align: center;
-    /* border: 2px solid cornflowerblue; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,7 @@ ul{
     
 }
 
-.conteiner ul li .link{ 
+.encabezado ul li .link{ 
             text-decoration: none;
             color: gray;
             font-size: 20px;
@@ -68,7 +67,7 @@ div ul li .link:hover{
 
 
 /* fin */
- 
+
 
 /* nosotros */
 .texto{ 
@@ -78,7 +77,7 @@ div ul li .link:hover{
     margin-bottom: 25px;
 }
 .medio{
-   
+
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
@@ -94,15 +93,9 @@ div ul li .link:hover{
     /* margin: 10px auto; */
     display: grid;
     grid-template-columns: 10rem 1fr 10rem ;
-  
-}
-
-.iconos{
-    /* width: 63px;
-    height: 48px; */
-    /* margin: 30px 50px 3px; */
 
 }
+
 
 .icon{
     display: flex;
@@ -112,11 +105,7 @@ div ul li .link:hover{
     gap: 5rem;
     
 }
-/* .flex{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+
 .parrafo{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -207,24 +196,10 @@ div ul li .link:hover{
     background-image: linear-gradient(to right top, #0c2029, #003159, #003f8f, #0046c3, #013dea);
 }
 
-input , select{
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: solid 2px rgb(113, 27, 27);
-    width: 540px;
-   height: 34px;
-  
-}
-
-
-
 .infoContacto{
     font-family: "ZonaPro-bold", "helvetica";
 }
-form{
-    text-align: center;
-}
+
 .botonEnviar{
         font-size: 25px;
         margin-top: 10px;
@@ -239,7 +214,12 @@ footer{
 
 /* MEDIA */
 @media screen and (min-width: 320px) and (max-width: 480px){
+    /* encabezado */
+.encabezado{
+    
+    justify-content: center;
 
+}
     ul{
    flex-direction: column;
     gap: 1rem;
@@ -264,12 +244,7 @@ footer{
     align-items: center;
     
 }
-/* presupuesto */
-input , select{
-    width: 90%;
-   height: 34px;
-  
-}
+
 iframe{
     width: 90%;
 }
@@ -366,6 +341,12 @@ iframe{
 
 }
 
+
+.form-label {
+    color: #D02322;
+    text-align: center;
+    font-weight: 900;
+}
 
 
 
