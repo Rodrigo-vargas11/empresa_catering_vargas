@@ -1,0 +1,32 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+
+}
+// sobre nosotros
+.sobreNosotros{
+    background-color: #E6E7E8;
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem ;
+    justify-content: center;
+    .medio{
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .parrafo{
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            
+        }
+        .icon{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            gap: 5rem;
+            
+        }
+    }
+}
