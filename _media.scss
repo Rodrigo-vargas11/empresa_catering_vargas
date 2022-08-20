@@ -14,6 +14,9 @@ flex-direction: column;
     
 }
 /* nosotros  */
+
+.sobreNosotros{
+
 .medio{
     grid-column: 1/4;
     
@@ -29,6 +32,7 @@ flex-direction: column;
         
     }
 }
+}
 
 
 
@@ -41,6 +45,36 @@ iframe{
   flex-direction: column;
   gap: 5px;
     
+}
+}
+
+@media screen and (min-width: 768px )and (max-width: 1024px) {
+    /* menu  */
+
+    .menu{
+        grid-column: 1/4;
+    }
+
+    ul{
+    gap: 2rem; 
+    
+ 
+    
+}
+/* nosotros */
+.sobreNosotros{
+
+.medio{
+    grid-column: 1/4;
+    
+
+}
+.icon{
+   
+    width: 100%;
+    gap: 4rem;
+    
+}
 }
 }
 

@@ -162,13 +162,13 @@
     gap: 1rem;
   }
   /* nosotros  */
-  .medio {
+  .sobreNosotros .medio {
     grid-column: 1/4;
   }
-  .medio .texto {
+  .sobreNosotros .medio .texto {
     width: 90%;
   }
-  .medio .icon {
+  .sobreNosotros .medio .icon {
     width: 100%;
     gap: 4rem;
     flex-direction: column;
@@ -193,10 +193,10 @@
     gap: 2rem;
   }
   /* nosotros */
-  .medio {
+  .sobreNosotros .medio {
     grid-column: 1/4;
   }
-  .icon {
+  .sobreNosotros .icon {
     width: 100%;
     gap: 4rem;
   }
