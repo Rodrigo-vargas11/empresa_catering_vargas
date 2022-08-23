@@ -41,11 +41,11 @@
                 
             }
             .animate__wobble {
-                --animate-duration: 2s;
+                --animate-duration: 4s;
             
             }
             .animate__backInDown{
-                --animate-duration: 4s;
+                @extend .animate__wobble; // se utilizo extend
             
             }
             .contenedor__foto{
